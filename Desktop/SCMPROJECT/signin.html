@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Playz Sign Up Page</title>
+    <link rel="icon" type="image" href="images/P.png">
+    <link rel="stylesheet" type="text/css" href="stylesignup.css">
+</head>
+
+<body>
+    <style>
+        #signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 83px;
+}
+    </style>
+    <div class="box">
+
+        <img src="icon.jpeg">
+        <div class="page">
+            <div class="header">
+                <!-- <a id="login" class="active" href="#login">log in</a> -->
+                <a id="signup" href="#signup">Sign Up</a>
+            </div>
+            <div id="errorMsg"></div>
+            <div class="content">
+                <form class="login" name="loginForm">
+                    <input type="text" name="name" id="logName" placeholder="Username" required>
+                    <input type="password" name="password" id="logPassword" placeholder="Password" required>
+                    <input type="text" name="e-mail" id="email" placeholder="email address" required>
+                    <!-- <input type="number" name="mob. number" id="DOB" placeholder="900224879"> -->
+                    <!-- <div id="check">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember Me</label>
+                        
+                    </div> -->
+                    <br><br>
+                    <!-- signin.html -->
+<input type="submit" value="Sign up" onclick="window.location.href='subscriptions.html';">
+                    <!-- <a href="#" style = "color: #707070;">Forgot Password?</a> -->
+                </form>
+                <form class="signup" name="signupForm">
+                    <input type="email" name="email" id="signEmail" placeholder="Email">
+                    <input type="text" name="name" id="signName" placeholder="Username">
+                    <input type="password" name="password" id="signPassword" placeholder="Password"><br>
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
